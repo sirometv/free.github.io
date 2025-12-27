@@ -2,6 +2,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>  
+  <!-- index.html এর head-এ যোগ করুন -->
+<meta http-equiv="Content-Security-Policy" 
+      content="default-src 'self'; 
+               script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://www.gstatic.com;
+               style-src 'self' 'unsafe-inline';
+               img-src 'self' https://i.postimg.cc https://*.postimg.cc;
+               connect-src 'self' https://raw.githubusercontent.com https://tg-bot-sirome-tv-default-rtdb.firebaseio.com;
+               media-src * blob:;">
   <meta charset="UTF-8">
   <title>Sirome TV</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">

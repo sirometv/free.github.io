@@ -1,0 +1,58 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <meta charset="UTF-8">
+  <title>Sirome TV</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="author" content="Sirome Live Sports">
+  <meta name="referrer" content="no-referrer">
+  <meta property="og:image" content="https://i.postimg.cc/d1hHy4ss/11.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="https://i.postimg.cc/d1hHy4ss/11.png" type="image/png">
+  
+  <!-- Loading Animation -->
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body, html { height:100%; overflow:hidden; background:#0f0f0f; }
+    
+    .loader {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    
+    .spinner {
+      border: 4px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      border-top: 4px solid red;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 20px;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    .loader-text {
+      color: white;
+      font-family: sans-serif;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="loader">
+    <div class="spinner"></div>
+    <div class="loader-text">Loading Sirome TV...</div>
+  </div>
+  
+  <!-- ওবফুসকেটেড জাভাস্ক্রিপ্ট লোড হবে -->
+</body>
+</html>

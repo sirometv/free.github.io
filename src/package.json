@@ -1,0 +1,13 @@
+{
+  "name": "sirome-tv-protected",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.js",
+    "deploy": "npm run build && gh-pages -d public"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^4.0.0",
+    "html-minifier-terser": "^7.0.0",
+    "gh-pages": "^5.0.0"
+  }
+}
